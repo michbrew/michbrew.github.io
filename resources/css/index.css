@@ -11,7 +11,7 @@
 h1 {
   color: hsl(239, 94%, 47%);
   font-family: "myNewFont";
-  font-size: larger;
+  font-size: 4.5em;
   font-weight:400;
   letter-spacing: 5px;
   text-align: center;
@@ -21,7 +21,7 @@ h1 {
 
 p {
   font-family: "mySecondFont","Helvetica", "sans-serif";
-  font-size: larger;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -29,6 +29,7 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 5%;
+  width 300;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
