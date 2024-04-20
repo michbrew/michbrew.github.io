@@ -11,7 +11,7 @@
 h1 {
   color: hsl(239, 94%, 47%);
   font-family: "myNewFont";
-  font-size: 100px;
+  font-size: larger;
   font-weight:400;
   letter-spacing: 5px;
   text-align: center;
@@ -21,7 +21,7 @@ h1 {
 
 p {
   font-family: "mySecondFont","Helvetica", "sans-serif";
-  font-size: 60px;
+  font-size: larger;
   text-align: center;
 }
 
