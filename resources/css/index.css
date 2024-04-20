@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "myNewFont";
+  src: url('../fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "mySecondFont";
+  src: url('../fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+}
+
+h1 {
+  color: hsl(239, 94%, 47%);
+  font-family: "myNewFont";
+  font-size: 100px;
+  font-weight:400;
+  letter-spacing: 5px;
+  text-align: center;
+  
+  
+}
+
+p {
+  font-family: "mySecondFont","Helvetica", "sans-serif";
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+html {
+  background-color:ivory;
+}
