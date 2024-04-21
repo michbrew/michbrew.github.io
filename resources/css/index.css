@@ -11,29 +11,45 @@
 h1 {
   color: hsl(239, 94%, 47%);
   font-family: "myNewFont";
-  font-size: 4.5em;
+  font-size: 75px;
   font-weight:400;
   letter-spacing: 5px;
   text-align: center;
-  
-  
+  display: block;
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+
+h1:hover {
+  background-color: hsl(239, 94%, 47%);
+  color:ivory;
+}
+
+p:hover {
+  color: ivory;
+  background-color: hsl(239, 94%, 47%);
 }
 
 p {
   font-family: "mySecondFont","Helvetica", "sans-serif";
-  font-size: 3em;
+  font-size: 50px;
   text-align: center;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 img {
   display: block;
   margin: 0 auto;
   border-radius: 5%;
-  width 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  box-sizing: border-box;
+
 }
 
 html {
-  background-color:ivory;
+  background-color:ivory; 
 }
